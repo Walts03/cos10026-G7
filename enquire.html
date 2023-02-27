@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <title>KAAT Shoe Website</title>
+    <link rel="icon" href="images/logo/logoteam1.png" type="image/icon type">
+</head>
+
+<body>
+    <header>
+        <div id="menu-bar" class="fa fa-bars"></div>
+        <a href="index.html" class="logo">
+            <img src="images/logo/logo3.png" alt="">
+        </a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="product.html" target="_blank">Product</a>
+            <a href="about.html" target="_blank">About Us</a>
+            <a href="enquire.html" target="_blank">Enquire</a>
+            <a href="enhancement.html" target="_blank">Enhancement</a>
+        </nav>
+        <div class="icons">
+            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+            <a href="#"><i class="fa fa-user"></i></a>
+        </div>
+    </header>
+    <div id="csscuaKienbody" >
+        <form id="csscuakienform" action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
+            <fieldset id="fieldset">
+                <img src="images/enquire/logo.png" class="img"><br>
+                <p id="Mems">Become Our Membership </p><br>
+                <p class="csscuaKienp">
+                    <label for="FirstName"></label>
+                    <input type="text" id="FirstName" name="FirstName" maxlength="25" size="41" placeholder="FirstName"
+                        pattern="[a-zA-Z ]+$" value="" required ><br><br>
+                    <label for="LastName"></label>
+                    <input type="text" id="LastName" name="LastName" maxlength="25" size="41" placeholder="LastName"
+                        pattern="[a-zA-Z ]+$" value="" required><br><br>
+                    <label for="Email"></label>
+                    <input type="email" name="Email" id="Email" size="41" placeholder="EmailAddress" value=""
+                        required><br><br>
+                    <label for="Street"></label>
+                    <input type="text" id="Street" name="Street" maxlength="40" size="41" placeholder="Street" value="" required><br> <br>
+                    <label for="Suburb"></label>
+                    <input type="text" id="Suburb" name = "Suburb" maxlength="20" size="41" placeholder="Suburb" value="" required> <br> <br>
+                    <label for="Comment"></label>
+                    <textarea id="Comment" name="Comment" rows="3" cols="41.5"
+                        placeholder="Comment" value=""></textarea><br> <br>
+                    <label for="State"></label>
+                    <select name="State" id="State" form = "csscuakienform" required >
+                        <option value="California" selected="selected">State</option>
+                        <option value="Florida">Florida</option>
+                        <option value="Hawaii">Hawaii</option>
+                        <option value="Illinois">Illinois</option>
+                        <option value="Michigan">Michigan</option>
+                        <option value="Ohio">Ohio</option>
+                        <option value="Nevada">Nevada</option>
+                        <option value="Others">Others</option>
+                    </select><br><br><br>
+                    <label for="Postcode"></label>
+                    <input type="text"id="Postcode" name = "Postcode" maxlength="4" placeholder="Post Code" pattern="[0-9]{4}" value=""
+                        required><br><br>
+                    <label for="Phonenumber"></label>
+                    <input type="text" name ="Phonenumber" id="Phonenumber" maxlength="10" value=""
+                        placeholder="Phone number" required><br><br>
+                    <select name="Product" id="Product" form = "csscuakienform">
+                        <option value="" disabled selected hidden>Select your Product</option>
+                        <option value="Basketball">Basketball</option>
+                        <option value="Soccer">Soccer</option>
+                        <option value="Running">Running</option>
+                        <option value="Tennis">Tennis</option>
+                        <option value="Lifestyle">Lifestyle</option><br><br>
+                        </select><br>
+                        <input type="submit" value="Register" id="Register" /> <br><br>
+                        <label for="Received" id="News">Do you want to receive our Newsletter
+                            <input type="radio" id="Received" name="subscibe" value="Yes" checked="checked">Yes
+                            <input type="radio" id="Received" name="subscibe" value="No">No <br><br>
+                        </label>
+                            <p class="csscuaKienp" id="Agree">By logging in, you agree to KAAT's <br>
+                                <a href="Terms & Condition" id="Terms">Privacy Policy and Terms of
+                                    Use</a>
+                            </p>
+                        
+            </fieldset>
+        </form>
+
+        <div class="decorpics">
+            <img src="images/enquire/background.jpg" id="pics1">
+            <img src="images/enquire/background2.webp" id="pics2">
+        </div>
+    </div>
+</body>
+
+
+</html>
